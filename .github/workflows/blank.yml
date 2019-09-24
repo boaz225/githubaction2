@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    - uses: actions/checkout@v1
     - name: Hello world Local action step
       id: hello
       uses: ./.github/actions/Docker-action
